@@ -1,0 +1,67 @@
+* {
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box; 
+font-family: Helvetica, sans-serif;
+letter-spacing:1px;
+}
+ 
+body {
+margin: auto;
+padding: 0 !important;
+text-align: center;
+ 
+}
+
+.website_wrapper{
+	display:block;
+	max-width:1000px;
+	margin:auto;
+	position:relative;
+	overflow:hidden;
+	border:1px solid silver;
+	text-align:left;
+}
+
+ul li, ol li{margin:10px 0; }
+
+h1{
+	border:1px solid silver;
+	padding:20px;
+	margin:0 ;
+}
+main{
+	position:relative;
+	display:block;
+	max-width:100%;
+	padding:20px;
+}
+
+form{
+	position:relative;
+	display:block;
+	max-width:100%;
+	overflow:hidden;
+	padding:20px;
+}
+
+form input, form button, form textarea{
+	padding:10px;
+	margin:5px 0 10px 0;
+}
+
+form textarea{width:100%; min-height:200px;}
+
+.holdRow{
+	position:relative;
+	display:block;
+	max-width:%100;
+	padding:20px 0 20px 0; 
+}
+ 
+.holdRowTitle{
+	display:block;
+	color:red;
+	margin-bottom:10px;
+}
+ 
